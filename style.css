@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color:hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 
+        top -400px left -200px, 
+        bottom -300px right -200px;
+}
+
+.card {
+    max-width: 270px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    margin: 30vh auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;    
+}
+
+.cover-pic img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+.profile-pic img {
+    border-radius: 100%;
+    border: solid 4px white;
+    margin-top: -55px;
+}
+.nameAndage {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.nameAndage p{
+    padding: 0 5px;
+    margin: 0;
+}
+.nameAndage .name {
+    font-weight: 700;
+}
+.nameAndage .age {
+    color: hsl(0, 0%, 59%);
+}
+.location p{
+    color: hsl(0, 0%, 59%);
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+hr {
+    border-top: solid 1px hsl(0, 0%, 59%);
+    opacity: .2;
+    
+}
+.followers p, .likes p, .photos p{
+    color: hsl(0, 0%, 59%);
+    font-size: x-small;
+    margin: 0;
+}
+h3 {
+    margin: 0;
+}
+.element-3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 20px 0;
+}
